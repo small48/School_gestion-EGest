@@ -8,7 +8,7 @@ EGest est une plateforme moderne de gestion d’établissements scolaires conçu
 
 Le projet vise à offrir une solution complète pour les écoles, collèges, lycées, universités et centres de formation.
 
-⸻
+
 
 🎯 Objectifs
 
@@ -19,7 +19,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Exploiter l’Intelligence Artificielle pour assister les utilisateurs.
 * Fournir une plateforme rapide, moderne et sécurisée.
 
-⸻
+
 
 ✨ Fonctionnalités
 
@@ -33,7 +33,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Présence
 * Discipline
 
-⸻
+
 
 👨‍🏫 Gestion des enseignants
 
@@ -43,7 +43,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Emplois du temps
 * Suivi des présences
 
-⸻
+
 
 🏫 Gestion académique
 
@@ -55,7 +55,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Semestres
 * Salles de cours
 
-⸻
+
 
 📚 Gestion pédagogique
 
@@ -66,7 +66,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Classements
 * Délibérations
 
-⸻
+
 
 💰 Gestion financière
 
@@ -77,7 +77,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Historique des paiements
 * Rapports financiers
 
-⸻
+
 
 👪 Gestion des parents
 
@@ -86,7 +86,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Consultation des résultats
 * Notifications
 
-⸻
+
 
 📅 Gestion des emplois du temps
 
@@ -95,7 +95,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Calendrier scolaire
 * Événements
 
-⸻
+
 
 📢 Communication
 
@@ -105,7 +105,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Annonces
 * Messagerie interne
 
-⸻
+
 
 📊 Tableau de bord
 
@@ -115,7 +115,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Résultats scolaires
 * Graphiques interactifs
 
-⸻
+
 
 🤖 Intelligence Artificielle (à venir)
 
@@ -127,7 +127,7 @@ Le projet vise à offrir une solution complète pour les écoles, collèges, lyc
 * Chatbot administratif
 * Recommandations pédagogiques
 
-⸻
+
 
 🏗️ Architecture technique
 
@@ -163,10 +163,11 @@ Stockage
 Déploiement
 
 * Docker
-* Nginx
+* Vercel
+* Render
 * GitHub Actions
 
-⸻
+
 
 📂 Structure du projet
 
@@ -198,59 +199,86 @@ EGest/
 ├── docker/
 └── README.md
 
-⸻
 
 🚀 Installation
 
 1. Cloner le projet
 
-git clone https://github.com/votre-utilisateur/EGest.git
-cd EGest
+	git clone https://github.com/small48/School_gestion-EGest.git
+	cd EGest
 
-⸻
+
 
 2. Backend
 
-cd backend
-python -m venv venv
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+	cd backend
+	python -m venv venv
+	source venv/bin/activate
 
-⸻
+# Windows
+	venv\Scripts\activate
+	pip install -r requirements.txt
+	uvicorn app.main:app --reload
+
+
 
 3. Frontend
 
-cd frontend
-npm install
-npm run dev
+	cd frontend
+	npm install
+	npm run dev
 
-⸻
+
 
 4. Mobile
 
-cd mobile
-npm install
-npx react-native run-android
+	cd mobile
+	npm install
+	npx react-native run-android
 
-⸻
+
 
 📊 Technologies utilisées
 
-Domaine	Technologies
-Frontend	React, TypeScript, Tailwind CSS
-Mobile	React Native
-Backend	FastAPI, Python
-Base de données	PostgreSQL
-ORM	SQLAlchemy
-Authentification	JWT
-IA	Python, Scikit-learn, TensorFlow, PyTorch
-Versioning	Git, GitHub
-Déploiement	Docker, Nginx
+Domaine Technologies
 
-⸻
+* Frontend	
+	React, 
+	TypeScript, 
+	Tailwind CSS
+
+* Mobile	
+	React Native
+
+* Backend	
+	FastAPI, 
+	Python
+
+* Base de données	
+	PostgreSQL
+
+* ORM	
+	SQLAlchemy
+
+* Authentification	
+	JWT
+
+* IA	
+	Python, 
+	Scikit-learn, 
+	TensorFlow, 
+	PyTorch
+
+* Versioning	
+	Git, 
+	GitHub
+
+* Déploiement	
+	Docker, 
+	vercel,
+	render
+
+
 
 🔐 Sécurité
 
@@ -261,7 +289,7 @@ Déploiement	Docker, Nginx
 * Validation des données
 * Protection contre les attaques courantes
 
-⸻
+
 
 📈 Roadmap
 
@@ -289,7 +317,7 @@ Version 3.0
 * Analyse prédictive
 * Automatisation des tâches
 
-⸻
+
 
 🤝 Contribution
 
@@ -301,13 +329,13 @@ Les contributions sont les bienvenues.
 4. Poussez votre branche.
 5. Ouvrez une Pull Request.
 
-⸻
+
 
 📄 Licence
 
 Ce projet est distribué sous licence MIT.
 
-⸻
+
 
 👨‍💻 Auteur
 
@@ -315,7 +343,7 @@ Amour Grâce
 
 Développeur Full Stack • Data Scientist • Développeur de jeux vidéo IA
 
-⸻
+
 
 ⭐ Soutenir le projet
 
